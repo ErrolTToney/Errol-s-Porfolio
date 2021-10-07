@@ -18,7 +18,7 @@ function Post({ post }) {
            </div>
            <div className={classes.ovrlay2}>
                <Button style={{color: 'white'}} size="small" onClick={()=>{}}>
-                   <MoreHorizIcon fontSize='default'/>
+                   <MoreHorizIcon fontSize='medium'/>
                </Button>
            </div>
            <div className={classes.details}>
@@ -27,7 +27,7 @@ function Post({ post }) {
            <CardContent>
            <Typography className={classes.title} variant='h5' gutterBottom >{post.message}</Typography>
            </CardContent>
-           <CardActions classNaem={classes.cardActions}>
+           <CardActions className={classes.cardActions}>
                <Button size='small' color='primary' onClick={() =>{}}>
                    <ThumbUpAltIcon fontSize="small" />
                    like
