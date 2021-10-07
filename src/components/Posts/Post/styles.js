@@ -20,6 +20,7 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
+    background: 'linear-gradient(120deg, #FE6B8B, #6a1b9a)',
   },
   overlay: {
     position: 'absolute',

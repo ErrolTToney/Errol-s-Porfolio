@@ -11,15 +11,17 @@ import aliRoosterQuote from './images/aliRoosterQuote.jpg';
 import PortfolioPic from './images/PortfolioPic.JPG';
 import useStyles from './styles'
 
+
 function App() {
   const classes = useStyles();
   const dispatch = useDispatch();
 
-
+  
 
   useEffect(()=>{
     dispatch(getPosts());
   },[dispatch]);
+  
 
   return (
   <Container maxWidth="lg">

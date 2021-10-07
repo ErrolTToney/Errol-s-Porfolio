@@ -6,16 +6,19 @@ export default makeStyles(()=>({
         margin: '30px 0',
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         alignItems: 'center',
+        background: 'linear-gradient(120deg, #6622cc, #A755c2)'
     },
-    heading: {
-        color: 'rgba(0, 183, 255, 1)',
+    header: {
+        color: '#1B1725',
     },
     image: {
         marginLeft: '15px',
     },
     image_Two: {
+        display:'flex',
         borderRadius: '180px',
+        
     }
 }));
